@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-07T21:54:25.752Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6151000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.neotech.steps.Hooks.start()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "valid login",
+        "description": "",
+        "id": "validate-add-new-student-functionality;valid-login",
+        "after": [
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.neotech.steps.Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 470000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the user name and password",
+            "match": {
+              "location": "com.neotech.steps.LoginSteps.user_enter_the_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 224000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User will be able to click drop down manu",
+            "match": {
+              "location": "com.neotech.steps.LoginSteps.user_will_be_able_to_click_drop_down_manu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2467000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "com.neotech.steps.LoginSteps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1264000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User will be able to see and click the students tab",
+            "match": {
+              "location": "com.neotech.steps.StudentsValidation.user_will_be_able_to_see_and_click_the_students_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 607000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User will be able to see and click the add new tab",
+            "match": {
+              "location": "com.neotech.steps.StudentFunctionality.user_will_be_able_to_see_and_click_the_add_new_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22820000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User fill up detail",
+            "match": {
+              "location": "com.neotech.steps.StudentFunctionality.user_will_filled_up_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Validate student is created success message is displayed",
+            "match": {
+              "location": "com.neotech.steps.StudentFunctionality.validate_student_is_created_success_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@studentfunction"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Add New Student functionality",
+    "description": "",
+    "id": "validate-add-new-student-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/StudentFunctionality.feature",
+    "tags": []
+  }
+]
